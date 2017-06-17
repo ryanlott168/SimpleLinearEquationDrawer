@@ -128,7 +128,7 @@ let solveLinEq = {
 
     graphEquation(){
       // This function allows you to take advantage of the previous functions
-      let input = window.prompt("Hello!\nPlease input a simple function: ");
+      let input = window.prompt("Hello!\nPlease input a simple function in 'y=mx+b' format: ");
       input = this.removeSpaces(input);
       const slope = this.getSlope(input);
       console.log(`\nThe slope of that equation is ${slope[0]}/${slope[1]}\n`);
