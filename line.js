@@ -1,18 +1,4 @@
-/*
-*-------------------------------------------------------------------------
-*   Hopefully this program satisfies what you were asking for.
-*   It can take simple linear equations in the form of 'y = mx + b'.
-*   As these lines weren't going to be on a graph, I didn't pay attention
-*   to graphing their 'y-intercept' or 'b'.
-*
-*   To use the object, just use the 'graphEquation()' function in a browser.
-*
-*   I hope you like it!
-*
-*   Best,
-*   Ryan Lott
-*--------------------------------------------------------------------------
-*/
+
 var solveLinEq = {
   // Declaring x, y, and slope (m) variables
   y: 0, x: 0, m: "",
